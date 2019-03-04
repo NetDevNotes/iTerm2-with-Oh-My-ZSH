@@ -17,6 +17,9 @@ Terminal in OSX is nice and simple but low on features. iTerm2 is a replacemnt f
 # What is Oh-My-ZSH
 Zsh is a UNIX command interpreter (aka a shell, similar to bash).  Oh My Zsh is an open source framework for managing Zsh configuration. It also offers many additional features, some of which listed below:
 
+* 250+ plugins that make using your favorite tools such as Ansible, GitHub, Python, Pyenv, easier and faster to use. 
+* 140+ cool themes to make your terminal, such as iTerm2, look amazing.  
+* You can even start your favourite track in Spotify from the command line. Why?  I dont know, but it was the first thing I did :smile:
 
 
 
