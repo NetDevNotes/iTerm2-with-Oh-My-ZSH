@@ -21,6 +21,12 @@ Zsh is a UNIX command interpreter (aka a shell, similar to bash).  Oh My Zsh is 
 * 140+ cool themes to make your terminal, such as iTerm2, look amazing.  
 * You can even start your favourite track in Spotify from the command line. Why?  I dont know, but it was the first thing I did :smile:
 
+# The power of team work!
+So as you can imagine from listing just a few of the features iTerm2 and Oh-My-ZSH offer, you can see why using both together is a powerful match made in heaven :angel:
+
+
+
+
 
 
 
