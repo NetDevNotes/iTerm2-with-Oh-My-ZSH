@@ -26,6 +26,9 @@ So as you can imagine from listing just a few of the features iTerm2 and Oh-My-Z
 
 # Installation
 
+## iTerm2
+Download the latest stable version from [HERE](https://www.iterm2.com/downloads.html) and run the installer.
+
 
 
 
