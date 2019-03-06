@@ -112,6 +112,9 @@ The default theme which is enabled is shown below, all you have to do is change 
 ZSH_THEME="gianu"
 ```
 ![gianu theme](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/gianu_theme.png?raw=true)
+
+> Notice above that im being told the folder I am currntly in is a `master` [GitHub](https://github.com/NetDevNotes/Complete-Python-3-Bootcamp.git) repository.
+
 If you are not feeling very colourful and don't want a theme enabled, you can set ZSH_THEME to be blank: 
 
 `ZSH_THEME=""`
