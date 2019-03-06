@@ -32,7 +32,9 @@ So as you can imagine from listing just a few of the features iTerm2 and Oh-My-Z
 3. Open iTerm and grant `Full Disk Access` as per the instructions.
 
 ## Oh-My-ZSH
-1. 
+1. From a terminal session (iTerm!), use curl to install:
+`$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+2. 
 
 
 
