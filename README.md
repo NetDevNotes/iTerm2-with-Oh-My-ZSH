@@ -36,7 +36,7 @@ So as you can imagine from listing just a few of the features iTerm2 and Oh-My-Z
 
 `$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
-2. Enter your password when prompted & the program ...is now installed!
+2. Enter your password when prompted & the program ....is now installed!
 ```
          __                                     __
   ____  / /_     ____ ___  __  __   ____  _____/ /_
@@ -56,7 +56,10 @@ p.p.s. Get stickers, shirts, and coffee mugs at https://shop.planetargon.com/col
 ```
 > Full instructions are available at https://ohmyz.sh/
 
-# 
+# Now What!?
+We could go in many directions and depending on what you do may dictate your direction naturally.  But lets be honest, the first thing we are going to do is configure a Theme! :smile:
+
+## 
 
 
 
