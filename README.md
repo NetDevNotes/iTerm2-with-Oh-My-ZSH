@@ -51,6 +51,8 @@ Please look over the ~/.zshrc file to select plugins, themes, and options.
 p.s. Follow us at https://twitter.com/ohmyzsh.
 
 p.p.s. Get stickers, shirts, and coffee mugs at https://shop.planetargon.com/collections/oh-my-zsh.
+
+➜  ~
 ```
 
 
