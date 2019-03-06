@@ -87,8 +87,9 @@ ZSH_THEME="robbyrussell"
 The default theme which is enabled is shown below, all you have to do is change the theme name and restart your terminal session (or open a new tab) to enable the new theme.  You might also choose to copy and hash out (#) the theme so you have a list of your favorites in teh config file:
 ```
 #ZSH_THEME="robbyrussell"
-ZSH_THEME="ravit"
+ZSH_THEME="gianu"
 ```
+![gianu theme]()
 If you are not feeling very colourful and don't want a theme enabled, you can set ZSH_THEME to be blank: 
 
 `ZSH_THEME=""`
