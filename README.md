@@ -76,7 +76,7 @@ $ printenv
 [deleted for brevity]
 SHELL=/bin/zsh
 ``` 
-> I think you can now be sure zsh is set to your defult shell... very sure :smile:
+> I think you can now be sure zsh is set to your defult shell.. very sure..
 
 # Now What!?
 We could go in many directions, and depending on what you do might naturally dictate your direction.  But lets be honest, the first thing we are going to do is configure a Theme! :smile:
@@ -113,7 +113,7 @@ ZSH_THEME="gianu"
 ```
 ![gianu theme](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/gianu_theme.png?raw=true)
 
-> Notice above that im being told the folder I am currntly in is a `master` [GitHub](https://github.com/NetDevNotes/Complete-Python-3-Bootcamp.git) repository. Pretty cool :cool:
+> Notice above that im being told the folder I am currntly in is a `master` [GitHub](https://github.com/NetDevNotes/Complete-Python-3-Bootcamp.git) repository. Pretty :cool:
 
 If you are not feeling very colourful and don't want a theme enabled, you can set ZSH_THEME to be blank: 
 
