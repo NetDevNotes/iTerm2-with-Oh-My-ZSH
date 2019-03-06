@@ -56,6 +56,28 @@ p.p.s. Get stickers, shirts, and coffee mugs at https://shop.planetargon.com/col
 ```
 > Full instructions are available at https://ohmyz.sh/
 
+# Verify ZSH install and ZSH as default shell
+You probably want zsh as your default shell, so when you open a terminal session zsh will be used by default.  This is set in your environment variables, below are a few ways to check this is the case:
+
+```
+$ echo $SHELL
+/bin/zsh
+```
+```
+$ zsh --version
+zsh 5.3 (x86_64-apple-darwin18.0)
+```
+```
+$ $SHELL --version
+zsh 5.3 (x86_64-apple-darwin18.0)
+```
+```
+$ printenv
+[deleted for brevity]
+SHELL=/bin/zsh
+``` 
+> I think you can now be sure zsh is set to your defult shell... very sure :laugh:
+
 # Now What!?
 We could go in many directions and depending on what you do may dictate your direction naturally.  But lets be honest, the first thing we are going to do is configure a Theme! :smile:
 
@@ -94,7 +116,7 @@ If you are not feeling very colourful and don't want a theme enabled, you can se
 
 `ZSH_THEME=""`
 
-
+# 
 
 
 
