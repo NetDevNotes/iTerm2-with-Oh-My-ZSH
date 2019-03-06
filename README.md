@@ -59,7 +59,41 @@ p.p.s. Get stickers, shirts, and coffee mugs at https://shop.planetargon.com/col
 # Now What!?
 We could go in many directions and depending on what you do may dictate your direction naturally.  But lets be honest, the first thing we are going to do is configure a Theme! :smile:
 
-## 
+> The list of these are located [HERE](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes)
+
+## Configuration File
+Your ZSH configuration file is located in your Home Directory `~/.zshrc`. This is where you can change themes, amoungst other settings.
+
+Below I am in my home folder and I edit the file using `vi`
+```
+➜  ~ pwd
+/Users/nico
+➜  ~ vi .zshrc
+
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# Path to your oh-my-zsh installation.
+export ZSH="/Users/nico/.oh-my-zsh"
+
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+ZSH_THEME="robbyrussell"
+```
+> You can use any text editor to edit the file, but vi is something worth learning, just use a cheatsheet, like [THIS](http://www.lagmonster.org/docs/vi.html) or [THIS](https://www.gosquared.com/resources/vi-cheat-sheet/).
+
+The default theme which is enabled is shown below, all you have to do is change the theme name and restart your terminal session (or open a new tab) to enable the new theme.  You might also choose to copy and hash out (#) the theme so you have a list of your favorites in teh config file:
+```
+ZSH_THEME="robbyrussell"
+ZSH_THEME="ravit"
+```
+If you are not feeling very colourful and don't want a theme enabled, you can set ZSH_THEME to be blank: 
+
+`ZSH_THEME=""`
+
+
 
 
 
