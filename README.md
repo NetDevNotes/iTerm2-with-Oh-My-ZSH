@@ -59,7 +59,7 @@ p.p.s. Get stickers, shirts, and coffee mugs at https://shop.planetargon.com/col
 # Now What!?
 We could go in many directions and depending on what you do may dictate your direction naturally.  But lets be honest, the first thing we are going to do is configure a Theme! :smile:
 
-> The list of these are located [HERE](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes)
+> The list of zsh themes are located [HERE](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes)
 
 ## Configuration File
 Your ZSH configuration file is located in your Home Directory `~/.zshrc`. This is where you can change themes, amoungst other settings.
