@@ -76,7 +76,7 @@ $ printenv
 [deleted for brevity]
 SHELL=/bin/zsh
 ``` 
-> I think you can now be sure zsh is set to your defult shell... very sure :laugh:
+> I think you can now be sure zsh is set to your defult shell... very sure :smile:
 
 # Now What!?
 We could go in many directions and depending on what you do may dictate your direction naturally.  But lets be honest, the first thing we are going to do is configure a Theme! :smile:
