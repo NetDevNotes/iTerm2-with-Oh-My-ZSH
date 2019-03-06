@@ -81,7 +81,7 @@ SHELL=/bin/zsh
 # Now What!?
 We could go in many directions, and depending on what you do might naturally dictate your direction.  But lets be honest, the first thing we are going to do is configure a Theme! :smile:
 
-> The list of zsh themes are located [HERE](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes)
+> The list of zsh themes is located [HERE](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes)
 
 ## Configuration File
 Your ZSH configuration file is located in your Home Directory `~/.zshrc`. This is where you can change themes, amoungst other settings.
