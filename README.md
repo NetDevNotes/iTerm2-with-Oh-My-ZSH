@@ -27,7 +27,12 @@ So as you can imagine from listing just a few of the features iTerm2 and Oh-My-Z
 # Installation
 
 ## iTerm2
-Download the latest stable version from [HERE](https://www.iterm2.com/downloads.html) and run the installer.
+1. Download the latest stable version from [HERE](https://www.iterm2.com/downloads.html)
+2. Extract the compressed file and copy iTerm.app to your Application folder.
+3. Open iTerm and grant `Full Disk Access` as per the instructions.
+
+## Oh-My-ZSH
+1. 
 
 
 
