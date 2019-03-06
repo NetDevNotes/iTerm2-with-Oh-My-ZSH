@@ -79,7 +79,7 @@ SHELL=/bin/zsh
 > I think you can now be sure zsh is set to your defult shell... very sure :smile:
 
 # Now What!?
-We could go in many directions and depending on what you do may dictate your direction naturally.  But lets be honest, the first thing we are going to do is configure a Theme! :smile:
+We could go in many directions, and depending on what you do might naturally dictate your direction.  But lets be honest, the first thing we are going to do is configure a Theme! :smile:
 
 > The list of zsh themes are located [HERE](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes)
 
