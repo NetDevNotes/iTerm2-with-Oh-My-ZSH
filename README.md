@@ -115,7 +115,7 @@ ZSH_THEME="gianu"
 
 > Notice above that im being told the folder I am currntly in is a `master` [GitHub](https://github.com/NetDevNotes/Complete-Python-3-Bootcamp.git) repository. Pretty :cool:
 
-If you are not feeling very colourful and don't want a theme enabled, you can set ZSH_THEME to be blank: 
+If you are not feeling very colourful, maybe its Monday or its raining, you can set ZSH_THEME to be blank: 
 
 `ZSH_THEME=""`
 
