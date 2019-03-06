@@ -84,7 +84,7 @@ ZSH_THEME="robbyrussell"
 ```
 > You can use any text editor to edit the file, but vi is something worth learning, just use a cheatsheet, like [THIS](http://www.lagmonster.org/docs/vi.html) or [THIS](https://www.gosquared.com/resources/vi-cheat-sheet/).
 
-The default theme which is enabled is shown below, all you have to do is change the theme name and restart your terminal session (or open a new tab) to enable the new theme.  You might also choose to copy and hash out (#) the theme so you have a list of your favorites in teh config file:
+The default theme which is enabled is shown below, all you have to do is change the theme name and restart your terminal session (or open a new tab) to enable the new theme.  You might choose to copy the line and use hash to disable all but one theme, then you can have a list of your favorites in the config file:
 ```
 #ZSH_THEME="robbyrussell"
 ZSH_THEME="gianu"
