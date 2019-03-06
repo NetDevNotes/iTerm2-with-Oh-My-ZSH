@@ -54,7 +54,9 @@ p.p.s. Get stickers, shirts, and coffee mugs at https://shop.planetargon.com/col
 
 ➜  ~
 ```
+> Full instructions are available at https://ohmyz.sh/
 
+# 
 
 
 
