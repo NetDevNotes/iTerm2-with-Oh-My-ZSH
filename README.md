@@ -182,7 +182,7 @@ To add more plugins, append the plugin name to the below line in your '~/.zshrc'
 
 `plugins=(git github osx ansible history iterm2 iwhois pip pyenv python sublime chucknorris)`
 
-## Spotify
+## Spotify (OSX plugin)
 Play a song via the Spotify API from the command line:
 
 `$ spotify play 'dave matthews band' 'let you down'`
@@ -190,3 +190,17 @@ Play a song via the Spotify API from the command line:
 ![Play Spotify](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/spotify_plugin.png)
 
  
+Command	| Description
+-----------------------
+ansible-version / aver | Show the version on ansible installed in this host
+ansible-role-init <role name> / arinit | Creates the Ansible Role as per Ansible Galaxy standard
+a | command ansible
+aconf | command ansible-config
+acon | command ansible-console
+ainv | command ansible-inventory
+aplaybook | command ansible-playbook
+ainv | command ansible-inventory
+adoc | command ansible-doc
+agal | command ansible-galaxy
+apull | command ansible-pull
+aval | command ansible-vault
