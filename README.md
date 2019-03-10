@@ -89,10 +89,12 @@ p.p.s. Get stickers, shirts, and coffee mugs at https://shop.planetargon.com/col
 ➜  ~
 ```
 > Full instructions are available at https://ohmyz.sh/
+
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
 </div>
 <br/>
+
 # Verify ZSH install and ZSH as default shell
 You probably want zsh as your default shell, so when you open a terminal session zsh will be used by default.  This is set in your environment variables, below are a few ways to check the installer set this for you:
 
@@ -119,10 +121,12 @@ SHELL=/bin/zsh
 You could go in many directions, but lets be honest, we're going to configure a Theme! 
 
 > The list of zsh themes is located [HERE](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes). Have a look through and find one you like.
+
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
 </div>
 <br/>
+
 ## Configuration File
 Your ZSH configuration file is located in your Home Directory `~/.zshrc`. This is where you can change themes, amongst other settings.
 
@@ -149,6 +153,7 @@ ZSH_THEME="robbyrussell"
     <b><a href="#top">↥ back to top</a></b>
 </div>
 <br/>
+
 > You can use any text editor to edit the file, but vi is something worth learning, just use a cheatsheet, like [THIS](http://www.lagmonster.org/docs/vi.html) or [THIS](https://www.gosquared.com/resources/vi-cheat-sheet/).
 
 The default theme which is enabled is shown below, all you have to do is change the theme name and restart your terminal session (or open a new tab) to enable the new theme.  You might choose to copy the line and use hash to disable all but one theme, then you can have a list of your favourites in the config file:
