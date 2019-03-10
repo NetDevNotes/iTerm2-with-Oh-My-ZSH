@@ -54,6 +54,7 @@ So as you can imagine from listing just a few of the features iTerm2 and Oh-My-Z
     <b><a href="#top">↥ back to top</a></b>
 </div>
 <br/>
+
 # Installation
 
 ## iTerm2
