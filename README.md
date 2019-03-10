@@ -168,10 +168,12 @@ ZSH_THEME="gianu"
 If you are not feeling very colourful, maybe its Monday or its raining, you can set ZSH_THEME to be blank: 
 
 `ZSH_THEME=""`
+
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
 </div>
 <br/>
+
 ## Split Panes (iTerm2)
 
 You to divide a tab into many rectangular panes, each of which is a different terminal session.
@@ -238,6 +240,7 @@ Another example:
     <b><a href="#top">↥ back to top</a></b>
 </div>
 <br/>
+
 ## Instant Replay (iTerm)
 This is a cool feature which will take you back in time!
 1. To enable, press cmd-opt-B. 
@@ -266,10 +269,12 @@ This is why you saw my command had '(master)' appended earlier.  It is part of t
 [Complete-Python-3-Bootcamp (master ✗)]$
 ```
 The git plugin has many more features detailed in the [documentation](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
+
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
 </div>
 <br/>
+
 ## Enable multiple plugins
 To add more plugins, append the plugin name to the below line in your '~/.zshrc' file.  I have enabled secveral below:
 
@@ -302,6 +307,7 @@ aval | command ansible-vault
 
 # Over to you
 So thats a few things you can do with iTerm2 and Oh-My-ZSH, I'll add a few more tips from time-to-time, but of course the best way to learn is to have a play.  **Enjoy**
+
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
 </div>
