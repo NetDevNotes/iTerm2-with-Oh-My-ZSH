@@ -183,7 +183,7 @@ To add more plugins, append the plugin name to the below line in your '~/.zshrc'
 `plugins=(git github osx ansible history iterm2 iwhois pip pyenv python sublime)`
 
 ## Spotify (OSX plugin)
-Play a song via the Spotify API from the command line:
+Play a song via the Spotify API from the command line. Type `spotify --help` to see the help page. 
 
 `$ spotify play 'dave matthews band' 'let you down'`
 
