@@ -119,7 +119,7 @@ If you are not feeling very colourful, maybe its Monday or its raining, you can 
 
 `ZSH_THEME=""`
 
-# Split Panes
+# Split Panes (iTerm2 method)
 
 You to divide a tab into many rectangular panes, each of which is a different terminal session: 
 
