@@ -1,5 +1,5 @@
 # iterm2-with-oh-my-zsh
-How to install iTerm2 and oh-my-zsh and why you might bother.
+How to install `iTerm2` and `Oh-My-ZSH` and why you might bother.
 
 ## What is iTerm2
 Terminal in OSX is nice and simple but low on features. iTerm2 is a replacement for the Terminal built into a MAC, and offers many additional features, some of which listed below:
@@ -15,11 +15,13 @@ Terminal in OSX is nice and simple but low on features. iTerm2 is a replacement 
 > I'll go into more detail on some of the best features later in the article.
 
 ## What is Oh-My-ZSH
-Zsh is a UNIX command interpreter (aka a shell, similar to bash).  Oh My Zsh is an open source framework for managing Zsh configuration. It also offers many additional features, some of which listed below:
+Zsh is a UNIX command interpreter (aka a shell, similar to bash).  Oh My Zsh is an open source framework for managing Zsh configuration. It also offers many additional features:
 
 * 250+ plugins that make using your favourite tools such as Ansible, GitHub, Python, Pyenv, easier and faster to use. 
 * 140+ cool themes to make your terminal, such as iTerm2, look amazing.  
 * You can even start your favourite track in Spotify from the command line. Why?  I dont know, but it was the first thing I did :smile:
+
+> The terms Oh-My-ZSH and zsh will be used synonymously throught this document.
 
 ## The power of team work!
 So as you can imagine from listing just a few of the features iTerm2 and Oh-My-ZSH offer, you can probably understand why using both together is a powerful combination.
@@ -87,13 +89,12 @@ You could go in many directions, but lets be honest, we're going to configure a 
 Your ZSH configuration file is located in your Home Directory `~/.zshrc`. This is where you can change themes, amongst other settings.
 
 ## Themes
-
-Below I am in my home folder and I edit the file using `vi`
+Below I am in my home folder and I edit the `.zshrc` file using `vi`
 ```
 ➜  ~ pwd
 /Users/nico
-➜  ~ vi .zshrc
 
+➜  ~ vi .zshrc
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -115,7 +116,7 @@ ZSH_THEME="gianu"
 ```
 ![gianu theme](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/gianu_theme.png)
 
-> Notice above that I’m being told the folder I am currently in is a `master` [GitHub](https://github.com/NetDevNotes/Complete-Python-3-Bootcamp.git) repository.  This is the ZSH Git plugin providing this additional information.  See the ZSH Plugin section below for more info.
+> Notice above that I’m being told the folder I am currently in is a `master` [GitHub](https://github.com/NetDevNotes/Complete-Python-3-Bootcamp.git) repository.  This is the zsh Git plugin providing this additional information.  See the ZSH Plugin section below for more info.
 
 If you are not feeling very colourful, maybe its Monday or its raining, you can set ZSH_THEME to be blank: 
 
@@ -123,7 +124,7 @@ If you are not feeling very colourful, maybe its Monday or its raining, you can 
 
 ## Split Panes (iTerm2)
 
-You to divide a tab into many rectangular panes, each of which is a different terminal session: 
+You to divide a tab into many rectangular panes, each of which is a different terminal session.
 
 ### Shortcuts 
 
@@ -137,7 +138,7 @@ cmd-[] | Navigate split panes
 ![Split Panes](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/split_panes.png)
 
 ## Autocomplete
-Both iTerm2 and Oh-My-ZSH have command history autocomplete features.
+Both iTerm2 and Oh-My-ZSH have command history autocompletion features.
 
 ### iTerm2
 1. To use autocomplete, type the beginning of a word and then press `cmd-;`
@@ -149,16 +150,16 @@ Both iTerm2 and Oh-My-ZSH have command history autocomplete features.
 2. Use the `arrow keys` to scroll through the command history
 
 ## Tab completion for cd
-In Bash when you press <TAB> you get prompted with a list of files in the current directory. But ZSH shows you folders which you can tab through, which in the context of cd is of course more useful.
+In Bash when you press <TAB> you get prompted with a list of files in the current directory. But zsh shows you folders which you can tab through, which in the context of cd is of course more useful.
          
 ## Shared command history
-In Bash each shell has its own history, Zshs shares the command history with all active shells.
+In Bash each shell has its own history, zsh shares the command history with all active shells.
 
 ## ZSH fixes case
-If you type a lower case letter instead of an upper, or visa versa, ZSH notices and changes the capitalisation.
+If you type a lower case letter instead of an upper, or visa versa, zsh notices and changes the capitalisation.
 
 ## Find a switch
-Not that kind if switch networkers! 
+Not that kind if switch networkers! :laugh:
 ```
 $ ls -l <TAB>
 -1  -- single column output
@@ -171,7 +172,7 @@ $ ls -l <TAB>
 ```
 Another example:
 ```
-[nico@Nicos-MacBook ~ ]$ git -
+[nico@Nicos-MacBook ~ ]$ git - <TAB>
 --bare                    -- use $PWD as repository
 --exec-path               -- path containing core git-programs
 --git-dir                 -- path to repository
@@ -181,7 +182,7 @@ Another example:
 [removed for brevity]
 ```
 ## Instant Replay (iTerm)
-This is a cool feature which will take you back in time!
+This is a cool feature which will take you back in time! :clock:
 1. To enable, press cmd-opt-B. 
 2. Use left and right arrow keys to navigate back and forward through time. 
 3. Use Esc to exit.
@@ -189,7 +190,7 @@ This is a cool feature which will take you back in time!
 > More iTerm2 features are listed [HERE](https://www.iterm2.com/documentation-highlights.html).
 
 ## Oh-My-ZSH Plugins
-I mentioned there were a lot of plugins for ZSH, they extend the features of ZSH even further and relate to specific services, applications and OS features.
+I mentioned there were a lot of plugins for zsh, they extend the features of ZSH even further and relate to specific services, applications and OS features.
 
 > The list of Oh-My-ZSH plugins can be found [HERE](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
 
