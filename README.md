@@ -119,8 +119,20 @@ If you are not feeling very colourful, maybe its Monday or its raining, you can 
 
 `ZSH_THEME=""`
 
-# 
+# Split Panes
 
+You to divide a tab into many rectangular panes, each of which is a different terminal session: 
+
+## Shortcuts 
+
+Shortcut | Function
+------------ | -------------
+cmd-d | Divide vertically
+cmd-shift-d | Divide horizontally
+cmd-opt-arrow | Navigate split panes
+cmd-[] | Navigate split panes    
+
+![Split Panes](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/split_panes.png)
 
 
 
