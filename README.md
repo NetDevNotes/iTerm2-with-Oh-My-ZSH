@@ -141,6 +141,10 @@ export ZSH="/Users/nico/.oh-my-zsh"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="robbyrussell"
 ```
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
 > You can use any text editor to edit the file, but vi is something worth learning, just use a cheatsheet, like [THIS](http://www.lagmonster.org/docs/vi.html) or [THIS](https://www.gosquared.com/resources/vi-cheat-sheet/).
 
 The default theme which is enabled is shown below, all you have to do is change the theme name and restart your terminal session (or open a new tab) to enable the new theme.  You might choose to copy the line and use hash to disable all but one theme, then you can have a list of your favourites in the config file:
