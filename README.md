@@ -215,7 +215,7 @@ In Bash each shell has its own history, zsh shares the command history with all 
 If you type a lower case letter instead of an upper, or visa versa, zsh notices and changes the capitalisation.
 
 ## Find a switch
-Not that kind if switch networkers! 
+Not that kind of switch networkers! 
 ```
 $ ls -l <TAB>
 -1  -- single column output
@@ -251,11 +251,11 @@ This is a cool feature which will take you back in time!
 > More iTerm2 features are listed [HERE](https://www.iterm2.com/documentation-highlights.html).
 
 ## Oh-My-ZSH Plugins
-I mentioned there were a lot of plugins for zsh, they extend the features of ZSH even further and relate to specific services, applications and OS features.
+I mentioned there were a lot of plugins for zsh, they extend the features of zsh even further and relate to specific services, applications and OS features.
 
 > The list of Oh-My-ZSH plugins can be found [HERE](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
 
-To enable plugins you need to append to a line in your '~/.zshrc' file, scroll down until you find the below section.  You will see that 'git' is already enabled:
+To enable plugins you need to append to a line in your `~/.zshrc` file, scroll down until you find section.  You will see that `git` is already enabled:
 ```
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
@@ -264,7 +264,7 @@ To enable plugins you need to append to a line in your '~/.zshrc' file, scroll d
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 ```
-This is why you saw my command had '(master)' appended earlier.  It is part of the git plugin that highlights when we are in a master git repository:
+This is why my command prompt had `(master)` appended earlier.  It's part of the git plugin that highlights to us when we are in a master git repository:
 ```
 [python]$ cd Complete-Python-3-Bootcamp
 [Complete-Python-3-Bootcamp (master ✗)]$
@@ -277,7 +277,7 @@ The git plugin has many more features detailed in the [documentation](https://gi
 <br/>
 
 ## Enable multiple plugins
-To add more plugins, append the plugin name to the below line in your '~/.zshrc' file.  I have enabled secveral below:
+To add more plugins, append the plugin name to the below line in your `~/.zshrc` file.  I have enabled secveral below:
 
 `plugins=(git github osx ansible history iterm2 iwhois pip pyenv python sublime)`
 
