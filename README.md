@@ -159,7 +159,7 @@ In Bash each shell has its own history, zsh shares the command history with all 
 If you type a lower case letter instead of an upper, or visa versa, zsh notices and changes the capitalisation.
 
 ## Find a switch
-Not that kind if switch networkers! :laugh:
+Not that kind if switch networkers! 
 ```
 $ ls -l <TAB>
 -1  -- single column output
@@ -182,7 +182,7 @@ Another example:
 [removed for brevity]
 ```
 ## Instant Replay (iTerm)
-This is a cool feature which will take you back in time! :clock:
+This is a cool feature which will take you back in time!
 1. To enable, press cmd-opt-B. 
 2. Use left and right arrow keys to navigate back and forward through time. 
 3. Use Esc to exit.
@@ -205,18 +205,18 @@ plugins=(git)
 ```
 This is why you saw my command had '(master)' appended earlier.  It is part of the git plugin that highlights when we are in a master git repository:
 ```
-[nico@MacBook python ]$ cd Complete-Python-3-Bootcamp
-[nico@MacBook Complete-Python-3-Bootcamp (master ✗)]$
+[python]$ cd Complete-Python-3-Bootcamp
+[Complete-Python-3-Bootcamp (master ✗)]$
 ```
 The git plugin has many more features detailed in the [documentation](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
 
 ## Enable multiple plugins
-To add more plugins, append the plugin name to the below line in your '~/.zshrc' file.  I have enabled 12 plugins below:
+To add more plugins, append the plugin name to the below line in your '~/.zshrc' file.  I have enabled secveral below:
 
 `plugins=(git github osx ansible history iterm2 iwhois pip pyenv python sublime)`
 
 ## Spotify (OSX plugin)
-Play a song via the Spotify API from the command line. Type `spotify --help` to see the help page. 
+Play a song via the Spotify API from the command line. As with any plugin, type `spotify --help` to see the help page:
 
 `$ spotify play 'dave matthews band' 'let you down'`
 
