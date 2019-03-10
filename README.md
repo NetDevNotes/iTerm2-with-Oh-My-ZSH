@@ -123,7 +123,7 @@ If you are not feeling very colourful, maybe its Monday or its raining, you can 
 
 You to divide a tab into many rectangular panes, each of which is a different terminal session: 
 
-## Shortcuts 
+### Shortcuts 
 
 Shortcut | Function
 ------------ | -------------
