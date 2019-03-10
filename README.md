@@ -154,6 +154,9 @@ In Bash when you press <TAB> you get prompted with a list of files in the curren
 ## Shared command history
 In Bash each shell has its own history, Zshs shares the command history with all active shells.
 
+## ZSH fixes case
+If you type a lower case letter instead of an upper, or visa versa, ZSH notices and changes the capitalisation.
+
 ## Find a switch
 Not that kind if switch networkers! 
 ```
