@@ -189,6 +189,9 @@ Play a song via the Spotify API from the command line:
 
 ![Play Spotify](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/spotify_plugin.png)
 
+## Absible 
+The [Ansible plugin](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/ansible) offers several aliases for common Ansible commands:
+
 Command | Description
 ------------ | -------------
 ansible-version / aver | Show the version on ansible installed in this host
@@ -203,3 +206,4 @@ adoc | command ansible-doc
 agal | command ansible-galaxy
 apull | command ansible-pull
 aval | command ansible-vault
+
