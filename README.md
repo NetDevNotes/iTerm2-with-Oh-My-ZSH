@@ -180,7 +180,7 @@ The git plugin has many more features detailed in the [documentation](https://gi
 ## Enable multiple plugins
 To add more plugins, append the plugin name to the below line in your '~/.zshrc' file.  I have enabled 12 plugins below:
 
-`plugins=(git github osx ansible history iterm2 iwhois pip pyenv python sublime chucknorris)`
+`plugins=(git github osx ansible history iterm2 iwhois pip pyenv python sublime)`
 
 ## Spotify (OSX plugin)
 Play a song via the Spotify API from the command line:
