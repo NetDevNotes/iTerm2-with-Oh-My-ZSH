@@ -86,6 +86,8 @@ You could go in many directions, but lets be honest, we're going to configure a 
 ## Configuration File
 Your ZSH configuration file is located in your Home Directory `~/.zshrc`. This is where you can change themes, amoungst other settings.
 
+## Themes
+
 Below I am in my home folder and I edit the file using `vi`
 ```
 ➜  ~ pwd
@@ -119,7 +121,7 @@ If you are not feeling very colourful, maybe its Monday or its raining, you can 
 
 `ZSH_THEME=""`
 
-# Split Panes (iTerm2 method)
+## Split Panes (iTerm2 method)
 
 You to divide a tab into many rectangular panes, each of which is a different terminal session: 
 
@@ -133,6 +135,20 @@ cmd-opt-arrow | Navigate split panes
 cmd-[] | Navigate split panes    
 
 ![Split Panes](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/split_panes.png)
+
+## Autocomplete
+Both iTerm2 and Oh-My-ZSH have command history autocomplete features.
+
+### iTerm2
+1. To use autocomplete, type the beginning of a word and then press `cmd-;`
+2. Use the `arrow keys` to select the command from within the list
+3. Use `enter` to select the command
+
+### ZSH
+1. To use autocomplete, type the beginning of a word
+2. Use the `arrow keys` to scroll through the command history
+
+
 
 
 
