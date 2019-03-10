@@ -199,7 +199,7 @@ To enable plugins you need to append to a line in your '~/.zshrc' file, scroll d
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 ```
-This is why you saw my command had '(master ✗)' appended earlier.  It is part of the git plugin that highlights when we are in a master git repository:
+This is why you saw my command had '(master)' appended earlier.  It is part of the git plugin that highlights when we are in a master git repository:
 ```
 [nico@MacBook python ]$ cd Complete-Python-3-Bootcamp
 [nico@MacBook Complete-Python-3-Bootcamp (master ✗)]$
