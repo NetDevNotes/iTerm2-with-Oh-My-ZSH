@@ -164,7 +164,18 @@ $ ls -l <TAB>
 -C  -- list entries in columns sorted vertically
 -F  -- append file type indicators
 -H  -- follow symlinks on the command line
-[Removed for brevity]
+[removed for brevity]
+```
+Another example:
+```
+[nico@Nicos-MacBook ~ ]$ git -
+--bare                    -- use $PWD as repository
+--exec-path               -- path containing core git-programs
+--git-dir                 -- path to repository
+--help                    -- display help message
+--html-path               -- display path to HTML documentation and exit
+--info-path               -- print the path where the info files are installed and exit
+[removed for brevity]
 ```
 ## Instant Replay (iTerm)
 This is a cool feature which will take you back in time!
