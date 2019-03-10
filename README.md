@@ -134,6 +134,7 @@ cmd-shift-d | Divide horizontally
 cmd-opt-arrow | Navigate split panes
 cmd-[] | Navigate split panes    
 
+#### Example below
 ![Split Panes](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/split_panes.png)
 
 ## Autocomplete
@@ -208,4 +209,4 @@ apull | command ansible-pull
 aval | command ansible-vault
 
 # Over to you
-So thats a few things you can do with iTerm2 and Oh-My-ZSH, I'll add a few more tips from time-to-time, but the best way to learn is to have a a play.  **Enjoy**
+So thats a few things you can do with iTerm2 and Oh-My-ZSH, I'll add a few more tips from time-to-time, but of course the best way to learn is to have a play.  **Enjoy**
