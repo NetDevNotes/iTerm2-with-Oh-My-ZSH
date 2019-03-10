@@ -79,9 +79,9 @@ SHELL=/bin/zsh
 > I think you can now be sure zsh is set to your defult shell.. very sure..
 
 # Now What!?
-We could go in many directions, and depending on what you do might naturally dictate your direction.  But lets be honest, the first thing we are going to do is configure a Theme! :smile:
+You could go in many directions, but lets be honest, we're going to configure a Theme! 
 
-> The list of zsh themes is located [HERE](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes)
+> The list of zsh themes is located [HERE](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes). Have a look through and find one you like.
 
 ## Configuration File
 Your ZSH configuration file is located in your Home Directory `~/.zshrc`. This is where you can change themes, amoungst other settings.
