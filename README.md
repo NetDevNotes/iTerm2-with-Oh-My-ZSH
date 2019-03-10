@@ -59,7 +59,7 @@ p.p.s. Get stickers, shirts, and coffee mugs at https://shop.planetargon.com/col
 > Full instructions are available at https://ohmyz.sh/
 
 # Verify ZSH install and ZSH as default shell
-You probably want zsh as your default shell, so when you open a terminal session zsh will be used by default.  This is set in your environment variables, below are a few ways to check this is the case:
+You probably want zsh as your default shell, so when you open a terminal session zsh will be used by default.  This is set in your environment variables, below are a few ways to check the installer set this for you:
 
 ```
 $ echo $SHELL
