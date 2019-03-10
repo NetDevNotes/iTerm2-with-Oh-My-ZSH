@@ -2,22 +2,22 @@
 How to install iTerm2 and oh-my-zsh and why you might bother.
 
 ## What is iTerm2
-Terminal in OSX is nice and simple but low on features. iTerm2 is a replacemnt for the Terminal built into a MAC, and offers many additional features, some of which listed below:
+Terminal in OSX is nice and simple but low on features. iTerm2 is a replacement for the Terminal built into a MAC, and offers many additional features, some of which listed below:
 
 * Lots of keyboard shortcuts, so less time spent touching the mouse.
 * Advanced split screens (horizontal/vertical)
-* Mouseless copy
+* Mouse-less copy
 * Advanced command history
 * Open iTerm2 from Finder
 * Autocomplete list based on your input
 * Instant Replay can take you back in time! But probably not to October 21st 1985.
 
-> I'll go into more detail on some of the best features later in the artice.
+> I'll go into more detail on some of the best features later in the article.
 
 ## What is Oh-My-ZSH
 Zsh is a UNIX command interpreter (aka a shell, similar to bash).  Oh My Zsh is an open source framework for managing Zsh configuration. It also offers many additional features, some of which listed below:
 
-* 250+ plugins that make using your favorite tools such as Ansible, GitHub, Python, Pyenv, easier and faster to use. 
+* 250+ plugins that make using your favourite tools such as Ansible, GitHub, Python, Pyenv, easier and faster to use. 
 * 140+ cool themes to make your terminal, such as iTerm2, look amazing.  
 * You can even start your favourite track in Spotify from the command line. Why?  I dont know, but it was the first thing I did :smile:
 
@@ -76,7 +76,7 @@ $ printenv
 [deleted for brevity]
 SHELL=/bin/zsh
 ``` 
-> I think you can now be sure zsh is set to your defult shell.. very sure..
+> I think you can now be sure zsh is set to your default shell.. very sure..
 
 # Now What!?
 You could go in many directions, but lets be honest, we're going to configure a Theme! 
@@ -84,7 +84,7 @@ You could go in many directions, but lets be honest, we're going to configure a 
 > The list of zsh themes is located [HERE](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes). Have a look through and find one you like.
 
 ## Configuration File
-Your ZSH configuration file is located in your Home Directory `~/.zshrc`. This is where you can change themes, amoungst other settings.
+Your ZSH configuration file is located in your Home Directory `~/.zshrc`. This is where you can change themes, amongst other settings.
 
 ## Themes
 
@@ -108,14 +108,14 @@ ZSH_THEME="robbyrussell"
 ```
 > You can use any text editor to edit the file, but vi is something worth learning, just use a cheatsheet, like [THIS](http://www.lagmonster.org/docs/vi.html) or [THIS](https://www.gosquared.com/resources/vi-cheat-sheet/).
 
-The default theme which is enabled is shown below, all you have to do is change the theme name and restart your terminal session (or open a new tab) to enable the new theme.  You might choose to copy the line and use hash to disable all but one theme, then you can have a list of your favorites in the config file:
+The default theme which is enabled is shown below, all you have to do is change the theme name and restart your terminal session (or open a new tab) to enable the new theme.  You might choose to copy the line and use hash to disable all but one theme, then you can have a list of your favourites in the config file:
 ```
 #ZSH_THEME="robbyrussell"
 ZSH_THEME="gianu"
 ```
 ![gianu theme](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/gianu_theme.png)
 
-> Notice above that im being told the folder I am currntly in is a `master` [GitHub](https://github.com/NetDevNotes/Complete-Python-3-Bootcamp.git) repository.  This is the ZSH Git plugin providing this additional information.  See the ZSH Plugin section below formore info.
+> Notice above that I’m being told the folder I am currently in is a `master` [GitHub](https://github.com/NetDevNotes/Complete-Python-3-Bootcamp.git) repository.  This is the ZSH Git plugin providing this additional information.  See the ZSH Plugin section below for more info.
 
 If you are not feeling very colourful, maybe its Monday or its raining, you can set ZSH_THEME to be blank: 
 
@@ -189,7 +189,7 @@ Play a song via the Spotify API from the command line:
 
 ![Play Spotify](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/spotify_plugin.png)
 
-## Absible 
+## Ansible 
 The [Ansible plugin](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/ansible) offers several aliases for common Ansible commands:
 
 Command | Description
