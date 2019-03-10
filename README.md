@@ -1,6 +1,28 @@
 # iterm2-with-oh-my-zsh :coffee:
 How to install `iTerm2` and `Oh-My-ZSH` and why you might bother.
 
+* [What is iTerm2](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#what-is-iterm2)
+* [What is Oh-My-ZSH](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#what-is-oh-my-zsh)
+* [The power of team work!](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#the-power-of-team-work)
+* [Installation](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#installation)
+* [Verify ZSH install and ZSH as default shell](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#verify-zsh-install-and-zsh-as-default-shell)
+* [Now What!?](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#now-what)
+* [Configuration File](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#configuration-file)
+* [Themes](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#themes)
+* [Split Panes (iTerm2)](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#split-panes-iterm2)
+* [Shortcuts](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#shortcuts)
+* [Autocomplete](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#autocomplete)
+* [Tab completion for cd](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#tab-completion-for-cd)
+* [Shared command history](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#shared-command-history)
+* [ZSH fixes case](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#zsh-fixes-case)
+* [Find a switch](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#find-a-switch)
+* [Instant Replay (iTerm)](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#instant-replay-iterm)
+* [Oh-My-ZSH Plugins](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#oh-my-zsh-plugins)
+* [Enable multiple plugins](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#enable-multiple-plugins)
+* [Spotify (OSX plugin)](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#spotify-osx-plugin)
+* [Ansible](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#ansible)
+* [Over to you](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#over-to-you)
+
 ## What is iTerm2
 Terminal in OSX is nice and simple but low on features. iTerm2 is a replacement for the Terminal built into a MAC, and offers many additional features, some of which listed below:
 
