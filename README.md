@@ -161,11 +161,26 @@ I mentioned there were a lot of plugins for ZSH, they extend the features of ZSH
 
 > The list of Oh-My-ZSH plugins can be found [HERE](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
 
+To enable plugins you need to append to a line in your '~/.zshrc' file, scroll down until you find the below section.  You will see that 'git' is already enabled:
+```
+# Which plugins would you like to load?
+# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git)
+```
+This is why you saw my command had '(master ✗)' appended earlier.  It is part of the git plugin that highlights when we are in a master git repository:
+```
+[nico@MacBook python ]$ cd Complete-Python-3-Bootcamp
+[nico@MacBook Complete-Python-3-Bootcamp (master ✗)]$
+```
+The git plugin has many more features detailed in the [documentation](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
 
+## Enable multiple plugins
+To add more plugins, append the plugin name to the below line in your '~/.zshrc' file.  I have enabled 12 plugins below:
 
-
-
-
+`plugins=(git github osx ansible history iterm2 iwhois pip pyenv python sublime chucknorris)`
 
 
  
