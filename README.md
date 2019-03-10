@@ -22,7 +22,10 @@ How to install `iTerm2` and `Oh-My-ZSH` and why you might bother.
 * [Spotify (OSX plugin)](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#spotify-osx-plugin)
 * [Ansible](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#ansible)
 * [Over to you](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#over-to-you)
-
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
 ## What is iTerm2
 Terminal in OSX is nice and simple but low on features. iTerm2 is a replacement for the Terminal built into a MAC, and offers many additional features, some of which listed below:
 
@@ -47,7 +50,10 @@ Zsh is a UNIX command interpreter (aka a shell, similar to bash).  Oh My Zsh is 
 
 ## The power of team work!
 So as you can imagine from listing just a few of the features iTerm2 and Oh-My-ZSH offer, you can probably understand why using both together is a powerful combination.
-
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
 # Installation
 
 ## iTerm2
@@ -79,7 +85,10 @@ p.p.s. Get stickers, shirts, and coffee mugs at https://shop.planetargon.com/col
 ➜  ~
 ```
 > Full instructions are available at https://ohmyz.sh/
-
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
 # Verify ZSH install and ZSH as default shell
 You probably want zsh as your default shell, so when you open a terminal session zsh will be used by default.  This is set in your environment variables, below are a few ways to check the installer set this for you:
 
@@ -106,7 +115,10 @@ SHELL=/bin/zsh
 You could go in many directions, but lets be honest, we're going to configure a Theme! 
 
 > The list of zsh themes is located [HERE](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes). Have a look through and find one you like.
-
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
 ## Configuration File
 Your ZSH configuration file is located in your Home Directory `~/.zshrc`. This is where you can change themes, amongst other settings.
 
@@ -143,7 +155,10 @@ ZSH_THEME="gianu"
 If you are not feeling very colourful, maybe its Monday or its raining, you can set ZSH_THEME to be blank: 
 
 `ZSH_THEME=""`
-
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
 ## Split Panes (iTerm2)
 
 You to divide a tab into many rectangular panes, each of which is a different terminal session.
@@ -170,7 +185,10 @@ Both iTerm2 and Oh-My-ZSH have command history autocompletion features.
 ### ZSH
 1. To use autocomplete, type the beginning of a word
 2. Use the `arrow keys` to scroll through the command history
-
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
 ## Tab completion for cd
 In Bash when you press <TAB> you get prompted with a list of files in the current directory. But zsh shows you folders which you can tab through, which in the context of cd is of course more useful.
          
@@ -203,6 +221,10 @@ Another example:
 --info-path               -- print the path where the info files are installed and exit
 [removed for brevity]
 ```
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
 ## Instant Replay (iTerm)
 This is a cool feature which will take you back in time!
 1. To enable, press cmd-opt-B. 
@@ -231,7 +253,10 @@ This is why you saw my command had '(master)' appended earlier.  It is part of t
 [Complete-Python-3-Bootcamp (master ✗)]$
 ```
 The git plugin has many more features detailed in the [documentation](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
-
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
 ## Enable multiple plugins
 To add more plugins, append the plugin name to the below line in your '~/.zshrc' file.  I have enabled secveral below:
 
@@ -264,3 +289,7 @@ aval | command ansible-vault
 
 # Over to you
 So thats a few things you can do with iTerm2 and Oh-My-ZSH, I'll add a few more tips from time-to-time, but of course the best way to learn is to have a play.  **Enjoy**
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
