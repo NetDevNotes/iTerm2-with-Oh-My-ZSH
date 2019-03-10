@@ -1,4 +1,4 @@
-# iterm2-with-oh-my-zsh
+# iterm2-with-oh-my-zsh :coffee:
 How to install `iTerm2` and `Oh-My-ZSH` and why you might bother.
 
 ## What is iTerm2
