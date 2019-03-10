@@ -148,6 +148,24 @@ Both iTerm2 and Oh-My-ZSH have command history autocomplete features.
 1. To use autocomplete, type the beginning of a word
 2. Use the `arrow keys` to scroll through the command history
 
+## Tab completion for cd
+In Bash when you press <TAB> you get prompted with a list of files in the current directory. But ZSH shows you folders which you can tab through, which in the context of cd is of course more useful.
+         
+## Shared command history
+In Bash each shell has its own history, Zshs shares the command history with all active shells.
+
+## Find a switch
+Not that kind if switch networkers! 
+```
+$ ls -l <TAB>
+-1  -- single column output
+-A  -- list all except . and ..
+-B  -- print octal escapes for control characters
+-C  -- list entries in columns sorted vertically
+-F  -- append file type indicators
+-H  -- follow symlinks on the command line
+[Removed for brevity]
+```
 ## Instant Replay (iTerm)
 This is a cool feature which will take you back in time!
 1. To enable, press cmd-opt-B. 
