@@ -189,9 +189,8 @@ Play a song via the Spotify API from the command line:
 
 ![Play Spotify](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/spotify_plugin.png)
 
- 
-Command	| Description
------------------------
+Command | Description
+------------ | -------------
 ansible-version / aver | Show the version on ansible installed in this host
 ansible-role-init <role name> / arinit | Creates the Ansible Role as per Ansible Galaxy standard
 a | command ansible
