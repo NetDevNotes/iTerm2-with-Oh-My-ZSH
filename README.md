@@ -134,7 +134,6 @@ cmd-shift-d | Divide horizontally
 cmd-opt-arrow | Navigate split panes
 cmd-[] | Navigate split panes    
 
-#### Example below
 ![Split Panes](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/split_panes.png)
 
 ## Autocomplete
