@@ -186,6 +186,6 @@ To add more plugins, append the plugin name to the below line in your '~/.zshrc'
 Play a song from the command line:
 
 `$ spotify play 'dave matthews band' 'let you down'`
-![Play Spotify]($ spotify play 'dave matthews band' 'let you down')
+![Play Spotify](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/spotify_plugin.png)
 
  
