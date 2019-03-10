@@ -115,7 +115,7 @@ ZSH_THEME="gianu"
 ```
 ![gianu theme](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/gianu_theme.png)
 
-> Notice above that im being told the folder I am currntly in is a `master` [GitHub](https://github.com/NetDevNotes/Complete-Python-3-Bootcamp.git) repository. Pretty :cool:
+> Notice above that im being told the folder I am currntly in is a `master` [GitHub](https://github.com/NetDevNotes/Complete-Python-3-Bootcamp.git) repository :smile:
 
 If you are not feeling very colourful, maybe its Monday or its raining, you can set ZSH_THEME to be blank: 
 
@@ -155,6 +155,11 @@ This is a cool feature which will take you back in time!
 3. Use Esc to exit.
 
 > More iTerm2 features are listed [HERE](https://www.iterm2.com/documentation-highlights.html).
+
+## Oh-My-ZSH Plugins
+I mentioned there were a lot of plugins for ZSH, they extend the features of ZSH even further and relate specifically to particular services and applications, an example will help explain this:
+
+> The list of Oh-My-ZSH plugins can be found [HERE](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
 
 
 
