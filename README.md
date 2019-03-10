@@ -121,7 +121,7 @@ If you are not feeling very colourful, maybe its Monday or its raining, you can 
 
 `ZSH_THEME=""`
 
-## Split Panes (iTerm2 method)
+## Split Panes (iTerm2)
 
 You to divide a tab into many rectangular panes, each of which is a different terminal session: 
 
@@ -147,6 +147,14 @@ Both iTerm2 and Oh-My-ZSH have command history autocomplete features.
 ### ZSH
 1. To use autocomplete, type the beginning of a word
 2. Use the `arrow keys` to scroll through the command history
+
+## Instant Replay (iTerm)
+This is a cool feature which will take you back in time!
+1. To enable, press cmd-opt-B. 
+2. Use left and right arrow keys to navigate back and forward through time. 
+3. Use Esc to exit.
+
+> More iTerm2 features are listed [HERE](https://www.iterm2.com/documentation-highlights.html).
 
 
 
