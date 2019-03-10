@@ -10,7 +10,6 @@ How to install `iTerm2` and `Oh-My-ZSH` and why you might bother.
 * [Configuration File](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#configuration-file)
 * [Themes](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#themes)
 * [Split Panes (iTerm2)](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#split-panes-iterm2)
-* [Shortcuts](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#shortcuts)
 * [Autocomplete](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#autocomplete)
 * [Tab completion for cd](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#tab-completion-for-cd)
 * [Shared command history](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#shared-command-history)
@@ -163,7 +162,7 @@ ZSH_THEME="gianu"
 ```
 ![gianu theme](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/gianu_theme.png)
 
-> Notice above that I’m being told the folder I am currently in is a `master` [GitHub](https://github.com/NetDevNotes/Complete-Python-3-Bootcamp.git) repository.  This is the zsh Git plugin providing this additional information.  See the ZSH Plugin section below for more info.
+> Notice above that I’m being told in my prompt that the folder I am currently in is a `master` [GitHub](https://github.com/NetDevNotes/Complete-Python-3-Bootcamp.git) repository.  This is the zsh Git plugin providing the additional information.  See the zsh Plugin section below for more info.
 
 If you are not feeling very colourful, maybe its Monday or its raining, you can set ZSH_THEME to be blank: 
 
@@ -178,7 +177,7 @@ If you are not feeling very colourful, maybe its Monday or its raining, you can 
 
 You to divide a tab into many rectangular panes, each of which is a different terminal session.
 
-### Shortcuts 
+### Split Pane Shortcuts 
 
 Shortcut | Function
 ------------ | -------------
@@ -200,10 +199,12 @@ Both iTerm2 and Oh-My-ZSH have command history autocompletion features.
 ### ZSH
 1. To use autocomplete, type the beginning of a word
 2. Use the `arrow keys` to scroll through the command history
+
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
 </div>
 <br/>
+
 ## Tab completion for cd
 In Bash when you press <TAB> you get prompted with a list of files in the current directory. But zsh shows you folders which you can tab through, which in the context of cd is of course more useful.
          
