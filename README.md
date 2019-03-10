@@ -182,5 +182,10 @@ To add more plugins, append the plugin name to the below line in your '~/.zshrc'
 
 `plugins=(git github osx ansible history iterm2 iwhois pip pyenv python sublime chucknorris)`
 
+## Spotify
+Play a song from the command line:
+
+`$ spotify play 'dave matthews band' 'let you down'`
+![Play Spotify]($ spotify play 'dave matthews band' 'let you down')
 
  
