@@ -22,10 +22,12 @@ How to install `iTerm2` and `Oh-My-ZSH` and why you might bother.
 * [Spotify (OSX plugin)](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#spotify-osx-plugin)
 * [Ansible](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#ansible)
 * [Over to you](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#over-to-you)
+
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
 </div>
 <br/>
+
 ## What is iTerm2
 Terminal in OSX is nice and simple but low on features. iTerm2 is a replacement for the Terminal built into a MAC, and offers many additional features, some of which listed below:
 
