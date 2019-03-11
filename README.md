@@ -230,7 +230,7 @@ $ ls -l <TAB>
 ```
 Another example:
 ```
-[nico@Nicos-MacBook ~ ]$ git - <TAB>
+$ git - <TAB>
 --bare                    -- use $PWD as repository
 --exec-path               -- path containing core git-programs
 --git-dir                 -- path to repository
