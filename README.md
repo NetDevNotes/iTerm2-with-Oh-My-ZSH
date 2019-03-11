@@ -69,7 +69,7 @@ So as you can imagine from listing just a few of the features iTerm2 and Oh-My-Z
 
 `$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
-2. Enter your password when prompted & the program ....is now installed!
+2. Enter your password when prompted & oh-my-zsh ....is now installed!
 ```
          __                                     __
   ____  / /_     ____ ___  __  __   ____  _____/ /_
