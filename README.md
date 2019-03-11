@@ -55,7 +55,7 @@ Zsh is a UNIX command interpreter (aka a shell, similar to bash).  Oh My Zsh is 
 <br/>
 
 ## The power of team work!
-So as you can imagine from listing just a few of the features iTerm2 and Oh-My-ZSH offer, you can probably understand why using both together is a powerful combination.
+So as you can imagine from listing just a few of the features iTerm2 and Oh-My-ZSH offer, using both together is a powerful combination.
 
 # Installation
 
