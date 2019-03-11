@@ -177,7 +177,7 @@ If you are not feeling very colourful, maybe its Monday or its raining, you can 
 
 ## Split Panes (iTerm)
 
-You to divide a tab into many rectangular panes, each of which is a different terminal session.
+You can divide a tab into many rectangular panes, each of which is a different terminal session.
 
 ### Split Pane Shortcuts 
 
@@ -208,7 +208,7 @@ Both iTerm2 and Oh-My-ZSH have command history autocompletion features.
 <br/>
 
 ## Tab completion for cd (ZSH)
-In Bash when you press <TAB> you get prompted with a list of files in the current directory. But zsh shows you folders which you can tab through, which in the context of cd is of course more useful.
+In Bash when you press \<TAB> after typing `cd` you get prompted with a list of files in the current directory. But zsh shows you folders which you can tab through, which in the context of cd is of course more useful.
          
 ## Shared command history (ZSH)
 In Bash each shell has its own history, zsh shares the command history with all active shells.
