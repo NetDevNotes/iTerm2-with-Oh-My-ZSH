@@ -94,7 +94,7 @@ p.p.s. Get stickers, shirts, and coffee mugs at https://shop.planetargon.com/col
 </div>
 <br/>
 
-> To open iTerm you can simply click the application icon. If you were to open Terminal (MAC OSX) you would still have zsh integrted as the installer changes your @SHELL variable to use zsh by default (see below).\
+> To open iTerm you can simply click the application icon. If you were to open Terminal (MAC OSX) you would still have zsh integrted as the installer changes your @SHELL variable to use zsh by default (see below).
 
 # Verify ZSH install and ZSH as default shell
 You probably want zsh as your default shell, so when you open a terminal session zsh will be used by default.  This is set in your environment variables, below are a few ways to check the installer set this for you:
