@@ -9,13 +9,13 @@ How to install `iTerm2` and `Oh-My-ZSH` and why you might bother.
 * [Now What!?](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#now-what)
 * [Configuration File](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#configuration-file)
 * [Themes](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#themes)
-* [Split Panes (iTerm2)](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#split-panes-iterm2)
+* [Split Panes](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#split-panes-iterm2)
 * [Autocomplete](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#autocomplete)
 * [Tab completion for cd](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#tab-completion-for-cd)
 * [Shared command history](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#shared-command-history)
 * [ZSH fixes case](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#zsh-fixes-case)
 * [Find a switch](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#find-a-switch)
-* [Instant Replay (iTerm)](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#instant-replay-iterm)
+* [Instant Replay](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#instant-replay-iterm)
 * [Oh-My-ZSH Plugins](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#oh-my-zsh-plugins)
 * [Enable multiple plugins](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#enable-multiple-plugins)
 * [Spotify (OSX plugin)](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#spotify-osx-plugin)
@@ -94,6 +94,8 @@ p.p.s. Get stickers, shirts, and coffee mugs at https://shop.planetargon.com/col
 </div>
 <br/>
 
+> To open iTerm you can simply click the application icon. If you were to open Terminal (MAC OSX) you would still have zsh integrted as the installer changes your @SHELL variable to use zsh by default (see below).\
+
 # Verify ZSH install and ZSH as default shell
 You probably want zsh as your default shell, so when you open a terminal session zsh will be used by default.  This is set in your environment variables, below are a few ways to check the installer set this for you:
 
@@ -126,10 +128,10 @@ You could go in many directions, but lets be honest, we're going to configure a 
 </div>
 <br/>
 
-## Configuration File
+## Configuration File (ZSH)
 Your ZSH configuration file is located in your Home Directory `~/.zshrc`. This is where you can change themes, amongst other settings.
 
-## Themes
+## Themes (ZSH)
 Below I am in my home folder and I edit the `.zshrc` file using `vi`
 ```
 ➜  ~ pwd
@@ -173,7 +175,7 @@ If you are not feeling very colourful, maybe its Monday or its raining, you can 
 </div>
 <br/>
 
-## Split Panes (iTerm2)
+## Split Panes (iTerm)
 
 You to divide a tab into many rectangular panes, each of which is a different terminal session.
 
@@ -188,7 +190,7 @@ cmd-[] | Navigate split panes
 
 ![Split Panes](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/split_panes.png)
 
-## Autocomplete
+## Autocomplete (iTerm & ZSH)
 Both iTerm2 and Oh-My-ZSH have command history autocompletion features.
 
 ### iTerm2
@@ -205,16 +207,16 @@ Both iTerm2 and Oh-My-ZSH have command history autocompletion features.
 </div>
 <br/>
 
-## Tab completion for cd
+## Tab completion for cd (ZSH)
 In Bash when you press <TAB> you get prompted with a list of files in the current directory. But zsh shows you folders which you can tab through, which in the context of cd is of course more useful.
          
-## Shared command history
+## Shared command history (ZSH)
 In Bash each shell has its own history, zsh shares the command history with all active shells.
 
-## ZSH fixes case
+## ZSH fixes case (ZSH)
 If you type a lower case letter instead of an upper, or visa versa, zsh notices and changes the capitalisation.
 
-## Find a switch
+## Find a switch (ZSH)
 Not that kind of switch networkers! 
 ```
 $ ls -l <TAB>
@@ -250,7 +252,7 @@ This is a cool feature which will take you back in time!
 
 > More iTerm2 features are listed [HERE](https://www.iterm2.com/documentation-highlights.html).
 
-## Oh-My-ZSH Plugins
+## Oh-My-ZSH Plugins 
 I mentioned there were a lot of plugins for zsh, they extend the features of zsh even further and relate to specific services, applications and OS features.
 
 > The list of Oh-My-ZSH plugins can be found [HERE](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
@@ -278,7 +280,7 @@ The git plugin has many more features detailed in the [documentation](https://gi
 </div>
 <br/>
 
-## Enable multiple plugins
+## Enable multiple plugins (ZSH)
 To add more plugins, append the plugin name to the below line in your `~/.zshrc` file.  I have enabled several below:
 
 `plugins=(git github osx ansible history iterm2 iwhois pip pyenv python sublime)`
@@ -290,7 +292,7 @@ Play a song via the Spotify API from the command line. As with any plugin, type 
 
 ![Play Spotify](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/spotify_plugin.png)
 
-## Ansible (ZSH plugin)
+## Ansible (ZSH)
 The [Ansible plugin](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/ansible) offers several aliases for common Ansible commands:
 
 Command | Description
