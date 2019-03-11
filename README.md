@@ -255,7 +255,9 @@ I mentioned there were a lot of plugins for zsh, they extend the features of zsh
 
 > The list of Oh-My-ZSH plugins can be found [HERE](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
 
-To enable plugins you need to append to a line in your `~/.zshrc` file, scroll down until you find section.  You will see that `git` is already enabled:
+To enable plugins you need to append to a line in your `~/.zshrc` file, scroll down until you find the plugin section.  You will see that `git` is already enabled by default:
+
+> Checkout my Git/GitHub article [HERE](https://github.com/NetDevNotes/How-To-Github)
 ```
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
@@ -277,18 +279,18 @@ The git plugin has many more features detailed in the [documentation](https://gi
 <br/>
 
 ## Enable multiple plugins
-To add more plugins, append the plugin name to the below line in your `~/.zshrc` file.  I have enabled secveral below:
+To add more plugins, append the plugin name to the below line in your `~/.zshrc` file.  I have enabled several below:
 
 `plugins=(git github osx ansible history iterm2 iwhois pip pyenv python sublime)`
 
-## Spotify (OSX plugin)
-Play a song via the Spotify API from the command line. As with any plugin, type `spotify --help` to see the help page:
+## Spotify (ZSH OSX plugin)
+Play a song via the Spotify API from the command line. As with any plugin, type `--help` after the plugin name to see help the page `spotify --help`
 
 `$ spotify play 'dave matthews band' 'let you down'`
 
 ![Play Spotify](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/spotify_plugin.png)
 
-## Ansible 
+## Ansible (ZSH plugin)
 The [Ansible plugin](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/ansible) offers several aliases for common Ansible commands:
 
 Command | Description
