@@ -13,7 +13,7 @@ How to install `iTerm2` and `Oh-My-ZSH` and why you might bother.
 * [Autocomplete](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#autocomplete)
 * [Tab completion for cd](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#tab-completion-for-cd)
 * [Shared command history](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#shared-command-history)
-* [ZSH fixes case](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#zsh-fixes-case)
+* [Fixing case](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#zsh-fixes-case)
 * [Find a switch](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#find-a-switch)
 * [Instant Replay](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#instant-replay-iterm)
 * [Oh-My-ZSH Plugins](https://github.com/NetDevNotes/iTerm2-with-Oh-My-ZSH/blob/master/README.md#oh-my-zsh-plugins)
@@ -213,7 +213,7 @@ In Bash when you press <TAB> you get prompted with a list of files in the curren
 ## Shared command history (ZSH)
 In Bash each shell has its own history, zsh shares the command history with all active shells.
 
-## ZSH fixes case (ZSH)
+## Fixing case (ZSH)
 If you type a lower case letter instead of an upper, or visa versa, zsh notices and changes the capitalisation.
 
 ## Find a switch (ZSH)
